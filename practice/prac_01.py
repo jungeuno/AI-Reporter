@@ -1,3 +1,4 @@
+# 헤드라인 관련 기사 url을 입력받아서 기사 제목들 크롤링 후 data폴더에 titles.csv 파일로 저장
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 import ssl

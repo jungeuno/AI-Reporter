@@ -1,4 +1,4 @@
-import tensorflow as tf
+# tokenize를 활용해서 도전과제 1에서 수집한 뉴스 제목 문장을 구성하는 단어에 정수 인덱스 부여
 import pandas as pd
 
 data = pd.read_csv('../data/titles.csv')
