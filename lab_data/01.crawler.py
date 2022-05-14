@@ -16,7 +16,7 @@ result = soup.find_all('div', {'class', 'cjs_t'})      # 전부 찾기/ 그냥 f
 titles = []
 
 for r in result:
-    print(r.text)                                      #r.text는 태그안의 알맹이만 보여줌
-    titles.append(r.text)                              #컴퓨터가 관리하기 좋게 배열에 추가하여 정리
+    print(r.text)                                      # r.text는 태그안의 알맹이만 보여줌
+    titles.append(r.text)                              # 컴퓨터가 관리하기 좋게 배열에 추가하여 정리
 
 print(titles)

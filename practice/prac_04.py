@@ -17,7 +17,7 @@ for i in range(len(titles)):
         x.append(sequence[:j])
         y.append(sequence[j])
 
-max_len = 0        #토큰의 갯수가 가장 많은 수
+max_len = 0        # 토큰의 갯수가 가장 많은 수
 
 for i in range(len(titles)):
     sequence = tokenizer.texts_to_sequences([titles[i]])[0]
