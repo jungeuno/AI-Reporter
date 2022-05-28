@@ -11,4 +11,4 @@ model = tf.keras.models.Sequential([
 if not os.path.exists('../models'):
     os.mkdir('../models')
 
-model.save('../models/softmax.h5')
+model.save('../models/softmax.h5')          # models 디렉토리에  softmax 모델을 저장
