@@ -2,7 +2,7 @@ import tensorflow as tf
 import os
 
 model = tf.keras.models.Sequential([    #dense
-    tf.keras.layers.Embedding(3, 5),
+    tf.keras.layers.Embedding(3, 5),    #단어의 종류 갯수 -> '3'
     tf.keras.layers.SimpleRNN(4),
     tf.keras.layers.Dense(6)
 ])
