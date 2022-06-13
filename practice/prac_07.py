@@ -14,7 +14,7 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Embedding(word_count, 5),           # 단어의 종류 갯수 -> '3'
     tf.keras.layers.SimpleRNN(4),
     tf.keras.layers.Dense(word_count),
-    tf.keras.layers.Softmax()                           # Dense 에서 합만 '1'로 바꿔줌, 파라미터도 없다.
+    tf.keras.layers.Softmax()                           # Softmax - Dense 레이어 기능에서 출력값들의 합만 '1'이 되도록 바꿔줌, 파라미터도 없다.
 ])
 model.summary()
 
